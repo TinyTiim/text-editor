@@ -17,19 +17,15 @@ module.exports = () => {
     plugins: [
       new HtmlWebpackPlugin({
         template: './index.html',
+        title: 'Webpack Plugin'
       }),
       new WebpackPwaManifest({
-        name: 'My App',
-        short_name: 'App',
-        description: 'My Progressive Web App',
-        background_color: '#ffffff',
-        theme_color: '#31a9e1',
-        icons: [
-          // icon configuration here
-        ],
+        template: './index.html',
+        title: 'Webpack Plugin'
       }),
       new InjectManifest({
-        swSrc: './src-sw.js',
+        template: './index.html',
+        title: 'Webpack Plugin'
       }),
     ],
     module: {
@@ -39,10 +35,15 @@ module.exports = () => {
           use: ['style-loader', 'css-loader'],
         },
         {
-          test: /\.js$/,
-          exclude: /node_modules/,
-          use: ['babel-loader'],
-        },
+          test: /\.m?js$/,
+          exclude: /(node_modules|bower_components)/,
+          use: {
+            loader: 'babel-loader',
+            options: {
+              presets: ['@babel/preset-env']
+            }
+          }
+        }
       ],
     },
   };
