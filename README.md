@@ -1,10 +1,8 @@
 # Text-Editor [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-  # n/a
-
   ## Description
 
-  It's a PWA back-end application it allows you to use the app locally without the internet or using the Heroku link above it's a text editor you can use to type out code or any text like for example 'console.log("Hello");'
+  It's a PWA back-end application it allows you to use the app locally without the internet or using installation guide below it's a text editor you can use to type out code or any text like for example 'console.log("Hello");'
 
   ## Table of Contents
 
