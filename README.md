@@ -35,7 +35,9 @@ Then start application
   
 ![Main Page](./imgs/applicationPage.JPG)
 
+![Manifest](./imgs/manifest.JPG)
 
+![Storage](./imgs/storage.JPG)
   
   Anybody who wants to save information via text editor. It can be useful for text but mainly for code.
   
