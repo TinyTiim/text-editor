@@ -29,9 +29,11 @@ Install dependencies
 Then start application
   `npm start`
 
-  Then you'll be able to access on port http://localhost:3001
+  Then you'll be able to access port http://localhost:3001
 
   ## Usage
+  
+![Main Page](./imgs/applicationPage.JPG)
 
 
   
